@@ -176,10 +176,10 @@ Não foram gerados todos os cortes, somente aqueles violados pela solução frac
 
 O método procurou heuristicamente uma clique maximal que esteja violada, ou seja, 
 
-Dada uma solução fracionária $(x^*, w^*)$ o método procurou por uma cor $j$ e uma clique $S$ em que:
+Dada uma solução fracionária $(x^\*, w^\*)$ o método procurou por uma cor $j$ e uma clique $S$ em que:
 
 $$
-\sum_{i \in S} x_{ij}^{*} > w_j^{*} + \varepsilon
+\sum_{i \in S} x_{ij}^{\*} > w_j^{\*} + \varepsilon \text{, onde } \varepsilon \text{ é o erro numérico}
 $$
 
 para inserir os respectivos cortes de usuário no modelo.
