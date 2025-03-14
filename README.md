@@ -19,10 +19,13 @@ Para modelar esse problema, são definidas as seguintes variáveis binárias:
 
 O código implementa o seguinte modelo:
 
+Função Objetivo:
+
 $$
-\min \sum_{i \in I} cy_i
- + \sum_{(i,j) \in E} g_{ij}x_{ij} \quad (1)
- $$
+\min \sum_{i \in I} cy_i + \sum_{(i,j) \in E} g_{ij}x_{ij} \quad (1)
+$$
+
+S.a.:
 
 $$
 \sum_{i \in I}  x_{ij} = 1, \quad \forall j \in J \quad (2)
