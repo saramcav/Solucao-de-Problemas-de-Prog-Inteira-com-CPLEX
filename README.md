@@ -40,11 +40,11 @@ $$
 $$
 
 $$
-x_{ij} \in \{0,1\}, \quad \forall (i,j) \in E \quad (5)
+x_{ij} \in \text{\{0,1\}}, \quad \forall (i,j) \in E \quad (5)
 $$
 
 $$
-y_i \in \{0,1\}, \quad \forall i \in I \quad (6)
+y_i \in \text{\{0,1\}}, \quad \forall i \in I \quad (6)
 $$
 
 ### Instâncias de teste
@@ -118,7 +118,7 @@ w_j \leq \sum_{i \in V} x_{ij}, \quad \forall 1 \leq j \leq n \quad (5)
 $$
 
 $$
-x_{ij} \in \{0,1\}, \quad \forall i \in V, \quad 1 \leq j \leq n \quad (6)
+x_{ij} \in \text{\{0,1\}}, \quad \forall i \in V, \quad 1 \leq j \leq n \quad (6)
 $$
 
 ### Instâncias de teste
